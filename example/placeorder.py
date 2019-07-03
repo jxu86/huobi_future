@@ -1,21 +1,15 @@
-from huobi import RequestClient
-from huobi.model import *
+from huobi_future import RequestClient
+from huobi_future.model import *
 import time
 
 
 
 
 pair = 'eoseth'
-# request_client = RequestClient(api_key="XXXXXXXXXXXX",
-#                                secret_key="XXXXXXXXXXXX")
-
-# request_client = RequestClient(api_key="XXXXXXXXXXXX",
-#                                secret_key="XXXXXXXXXXXX")
+# request_client = RequestClient(api_key="XXXX",
+#                                secret_key="XXXX")
 
 
-request_client_future = RequestClient(secret_key="XXXXXXXXXXXX",
-                               api_key="XXXX",
-                               url='https://api.hbdm.com')
 
 print('request_client_future=>', request_client_future)
 

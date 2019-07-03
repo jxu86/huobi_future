@@ -1,6 +1,6 @@
-from huobi.exception.huobiapiexception import HuobiApiException
-from huobi.impl.restapiinvoker import call_sync
-from huobi.model.user import User
+from huobi_future.exception.huobiapiexception import HuobiApiException
+from huobi_future.impl.restapiinvoker import call_sync
+from huobi_future.model.user import User
 
 
 class AccountInfoMap:

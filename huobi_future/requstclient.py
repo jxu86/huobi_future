@@ -1,8 +1,8 @@
-from huobi.impl.restapirequestimpl import RestApiRequestImpl
-from huobi.impl.restapiinvoker import call_sync
-from huobi.impl.accountinfomap import account_info_map
-from huobi.impl.utils.inputchecker import *
-from huobi.model import *
+from huobi_future.impl.restapirequestimpl import RestApiRequestImpl
+from huobi_future.impl.restapiinvoker import call_sync
+from huobi_future.impl.accountinfomap import account_info_map
+from huobi_future.impl.utils.inputchecker import *
+from huobi_future.model import *
 
 
 class RequestClient(object):

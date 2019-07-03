@@ -1,4 +1,4 @@
-from huobi.model.constant import *
+from huobi_future.model.constant import *
 
 
 class Balance:

@@ -1,7 +1,7 @@
 import requests
-from huobi.exception.huobiapiexception import HuobiApiException
-from huobi.impl.utils.etfresult import etf_result_check
-from huobi.impl.utils import *
+from huobi_future.exception.huobiapiexception import HuobiApiException
+from huobi_future.impl.utils.etfresult import etf_result_check
+from huobi_future.impl.utils import *
 
 
 def check_response(json_wrapper):

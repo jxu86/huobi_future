@@ -1,10 +1,10 @@
-from huobi.impl import RestApiRequest
-from huobi.impl.utils.urlparamsbuilder import UrlParamsBuilder
-from huobi.impl.utils.apisignature import create_signature
-from huobi.impl.accountinfomap import account_info_map
-from huobi.impl.utils.inputchecker import *
-from huobi.impl.utils.timeservice import *
-from huobi.model import *
+from huobi_future.impl import RestApiRequest
+from huobi_future.impl.utils.urlparamsbuilder import UrlParamsBuilder
+from huobi_future.impl.utils.apisignature import create_signature
+from huobi_future.impl.accountinfomap import account_info_map
+from huobi_future.impl.utils.inputchecker import *
+from huobi_future.impl.utils.timeservice import *
+from huobi_future.model import *
 
 
 class RestApiRequestImpl(object):

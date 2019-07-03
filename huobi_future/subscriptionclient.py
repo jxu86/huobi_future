@@ -1,10 +1,10 @@
 import urllib.parse
-from huobi.impl.websocketrequestimpl import WebsocketRequestImpl
-from huobi.impl.websocketconnection import WebsocketConnection
-from huobi.impl.websocketwatchdog import WebSocketWatchDog
-from huobi.impl.restapirequestimpl import RestApiRequestImpl
-from huobi.impl.accountinfomap import account_info_map
-from huobi.model import *
+from huobi_future.impl.websocketrequestimpl import WebsocketRequestImpl
+from huobi_future.impl.websocketconnection import WebsocketConnection
+from huobi_future.impl.websocketwatchdog import WebSocketWatchDog
+from huobi_future.impl.restapirequestimpl import RestApiRequestImpl
+from huobi_future.impl.accountinfomap import account_info_map
+from huobi_future.model import *
 
 class SubscriptionClient(object):
 
