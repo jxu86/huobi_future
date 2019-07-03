@@ -6,21 +6,23 @@ import time
 
 
 pair = 'eoseth'
-# request_client = RequestClient(api_key="94d4dbd5-yh4fhmvs5k-746262cd-a7869",
-#                                secret_key="66d97ea2-93176177-2c372af8-2d4cb")
+# request_client = RequestClient(api_key="XXXXXXXXXXXX",
+#                                secret_key="XXXXXXXXXXXX")
 
-# request_client = RequestClient(api_key="48b7e0cc-4ed9b857-32995061-vqgdf4gsga",
-#                                secret_key="c1f3cbe5-1ba64f39-c42322c5-88455")
+# request_client = RequestClient(api_key="XXXXXXXXXXXX",
+#                                secret_key="XXXXXXXXXXXX")
 
 
-request_client_future = RequestClient(secret_key="010e5e9b-3e0f0fd4-e013b1ff-65b0c",
-                               api_key="05a49add-d430ac2c-ed2htwf5tf-37363",
+request_client_future = RequestClient(secret_key="XXXXXXXXXXXX",
+                               api_key="XXXX",
                                url='https://api.hbdm.com')
 
 print('request_client_future=>', request_client_future)
 
 account_info = request_client_future.get_account_balance()
+# print('list balance=>', list(account_info.balances))
 for balance in account_info.balances:
+    # print('list balance=>', list(balance))
     print('account==>', balance)
     print('===>', balance.currency)
     print('===>', balance.balance)
